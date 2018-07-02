@@ -1,0 +1,3 @@
+// Package easygogenerator ...
+// TODO: package documentation
+package easygogenerator

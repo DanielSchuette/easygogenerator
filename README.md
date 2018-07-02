@@ -1,4 +1,5 @@
-# Disclaimer: The code in this repository is under active development with a working version, yet.
+## Disclaimer: The code in this repository is under active development without a working version, yet.
+
 
 
 # An Easy Way to Generate Static Websites from Templates

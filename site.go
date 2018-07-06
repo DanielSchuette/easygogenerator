@@ -32,12 +32,12 @@ func GetSiteContent(header, body, footer string) *Site {
 func (s *Site) Save(path string) error {
 	// print done statement
 	fmt.Printf("saved website to file: %s\n", path)
-
+	// TODO: print website to new output file
 	// return no error
 	return nil
 }
 
 // The String method is useful because now Site implements the Stringer interface and the content of *Site gets printed in a custom format
 func (s *Site) String() string {
-	return fmt.Sprintf("website:\n%s", string(s.Website))
+	return string(s.Website)
 }

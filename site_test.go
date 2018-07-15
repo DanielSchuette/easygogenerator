@@ -29,7 +29,7 @@ func TestGetSiteContent(t *testing.T) {
 		}
 		got := s.String()
 		if got != c.want {
-			t.Errorf("GetSiteContent(%s, %s, %s) == %s, want %s", c.in[0], c.in[1], c.in[2], got, c.want)
+			t.Errorf("GetSiteContent(%s, %s, %s) == %s, want %s\n", c.in[0], c.in[1], c.in[2], got, c.want)
 		}
 	}
 }

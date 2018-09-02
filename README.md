@@ -1,4 +1,4 @@
-## Disclaimer: The code in this repository is under active development without a working version, yet.
+## Disclaimer: The code in this repository is no longer under development.
 
 
 
